@@ -12,6 +12,7 @@
 		94709F0920273F4400331DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94709F0720273F4400331DCF /* Main.storyboard */; };
 		94709F0B20273F4400331DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94709F0A20273F4400331DCF /* Assets.xcassets */; };
 		94709F0E20273F4400331DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94709F0C20273F4400331DCF /* LaunchScreen.storyboard */; };
+		94709F1620274FAA00331DCF /* ping.aif in Resources */ = {isa = PBXBuildFile; fileRef = 94709F1520274FAA00331DCF /* ping.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		94709F0A20273F4400331DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94709F0D20273F4400331DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94709F0F20273F4400331DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94709F1520274FAA00331DCF /* ping.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = ping.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		94709F0220273F4400331DCF /* ARKitSample */ = {
 			isa = PBXGroup;
 			children = (
+				94709F1520274FAA00331DCF /* ping.aif */,
 				94709F0320273F4400331DCF /* AppDelegate.swift */,
 				94709F0520273F4400331DCF /* ViewController.swift */,
 				94709F0720273F4400331DCF /* Main.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					94709EFF20273F4400331DCF = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94709F1620274FAA00331DCF /* ping.aif in Resources */,
 				94709F0E20273F4400331DCF /* LaunchScreen.storyboard in Resources */,
 				94709F0B20273F4400331DCF /* Assets.xcassets in Resources */,
 				94709F0920273F4400331DCF /* Main.storyboard in Resources */,
@@ -274,12 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EK7Z26L6D4;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ARKitSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.ARKitSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +294,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EK7Z26L6D4;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ARKitSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.ARKitSample;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yandex.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
